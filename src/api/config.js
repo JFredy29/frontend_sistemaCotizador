@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuthStore } from "../stores";
 
 const clientApi = axios.create({
-    baseURL: "https://backend-sistemacotizador-production.up.railway.app/api/"
+    baseURL: "https://backend-sistemacotizador-production.up.railway.app/api"
 })
 
 clientApi.interceptors.request.use(
